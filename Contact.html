@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta content="width=device-width, initial-scale=1" name="viewport">
+  <title>Happy Campers!</title>
+  <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+  <link href="imagegallery.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+  <script src="https://code.jquery.com/jquery-3.2.1.js">
+  </script> 
+  <script src="bootstrap.js" type="text/javascript">
+  </script>
+  <nav class="navbar navbar-inverse navbar-fixed-top">
+    <div class="container">
+      <div class="nav navbar-header">
+        <button aria-expanded="false" class="navbar-toggle collapsed" data-target="#bs-example-navbar-collapse-1" data-toggle="collapse" type="button"><span class="sr-only">Toggle navigation</span> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span></button> <a class="navbar-brand" href="index.html"><i aria-hidden="true" class="fa fa-tree"></i> Happy Campers</a>
+      </div>
+      <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+        <ul class="nav navbar-nav">
+          <li>
+            <a href="index.html">Home</a>
+          </li>
+          <li>
+            <a href="Camper%20Viewers.html">Camp Sites</a>
+          </li>
+          <li>
+            <a href="Waterhole%20Viewers.html">Water Holes</a>
+          </li>
+          <li>
+            <a href="Caravan%20Viewers.html">Caravan Sites</a>
+          </li>
+          <li>
+            <a href="National%20Viewers.html">National Parks</a>
+          </li>
+        </ul>
+        <ul class="nav navbar-nav navbar-right">
+          <li>
+            <a href="About.html">About</a>
+          </li>
+          <li class="active">
+            <a href="contact.html">Contact</a>
+          </li>
+          <li>
+            <a href="#">Sign Up <i aria-hidden="true" class="fa fa-user-plus"></i></a>
+          </li>
+          <li>
+            <a href="#">Login <i aria-hidden="true" class="fa fa-user"></i></a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <div class="container">
+    <div class="jumbotron">
+      <form action="" class="well form-horizontal" id="contact_form" method="post" name="contact_form">
+        <div class="contact">
+          <fieldset>
+            <!-- Form Name -->
+            <legend></legend>
+            <h1><legend>Contact Us Today!</legend></h1>
+            <div class="form-group">
+              <label class="col-md-4 control-label">First Name</label>
+              <div class="col-md-4 inputGroupContainer">
+                <div class="input-group">
+                  <span class="input-group-addon"><i class="glyphicon glyphicon-user"></i></span> <input class="form-control" name="first_name" placeholder="First Name" type="text">
+                </div>
+              </div>
+            </div><!-- Text input-->
+            <div class="form-group">
+              <label class="col-md-4 control-label">Last Name</label>
+              <div class="col-md-4 inputGroupContainer">
+                <div class="input-group">
+                  <span class="input-group-addon"><i class="glyphicon glyphicon-user"></i></span> <input class="form-control" name="last_name" placeholder="Last Name" type="text">
+                </div>
+              </div>
+            </div><!-- Text input-->
+            <div class="form-group">
+              <label class="col-md-4 control-label">E-Mail</label>
+              <div class="col-md-4 inputGroupContainer">
+                <div class="input-group">
+                  <span class="input-group-addon"><i class="glyphicon glyphicon-envelope"></i></span> <input class="form-control" name="email" placeholder="E-Mail Address" type="text">
+                </div>
+              </div>
+            </div><!-- Text input-->
+            <div class="form-group">
+              <label class="col-md-4 control-label">Phone #</label>
+              <div class="col-md-4 inputGroupContainer">
+                <div class="input-group">
+                  <span class="input-group-addon"><i class="glyphicon glyphicon-earphone"></i></span> <input class="form-control" name="phone" placeholder="(04)31 888 999" type="text">
+                </div>
+              </div>
+            </div><!-- Text input-->
+            <div class="form-group">
+              <label class="col-md-4 control-label">Address</label>
+              <div class="col-md-4 inputGroupContainer">
+                <div class="input-group">
+                  <span class="input-group-addon"><i class="glyphicon glyphicon-home"></i></span> <input class="form-control" name="address" placeholder="Address" type="text">
+                </div>
+              </div>
+            </div><!-- Text input-->
+            <div class="form-group">
+              <label class="col-md-4 control-label">City</label>
+              <div class="col-md-4 inputGroupContainer">
+                <div class="input-group">
+                  <span class="input-group-addon"><i class="glyphicon glyphicon-home"></i></span> <input class="form-control" name="city" placeholder="City" type="text">
+                </div>
+              </div>
+            </div><!-- Select Basic -->
+            <div class="form-group">
+              <label class="col-md-4 control-label">State</label>
+              <div class="col-md-4 selectContainer">
+                <div class="input-group">
+                  <span class="input-group-addon"><i class="glyphicon glyphicon-list"></i></span> <select class="form-control selectpicker" name="state">
+                    <option value=" ">
+                      Please select your state
+                    </option>
+                    <option>
+                      Australian Capital Territory
+                    </option>
+                    <option>
+                      New South Wales
+                    </option>
+                    <option>
+                      Northern Territory
+                    </option>
+                    <option>
+                      Queensland
+                    </option>
+                    <option>
+                      Tasmania
+                    </option>
+                    <option>
+                      Victoria
+                    </option>
+                    <option>
+                      Western Australia
+                    </option>
+                  </select>
+                </div>
+              </div>
+            </div><!-- Text input-->
+            <div class="form-group">
+              <label class="col-md-4 control-label">Post Code</label>
+              <div class="col-md-4 inputGroupContainer">
+                <div class="input-group">
+                  <span class="input-group-addon"><i class="glyphicon glyphicon-home"></i></span> <input class="form-control" name="zip" placeholder="Post Code" type="text">
+                </div>
+              </div>
+            </div><!-- Text input-->
+            <div class="form-group">
+              <label class="col-md-4 control-label">Website or domain name</label>
+              <div class="col-md-4 inputGroupContainer">
+                <div class="input-group">
+                  <span class="input-group-addon"><i class="glyphicon glyphicon-globe"></i></span> <input class="form-control" name="website" placeholder="Website or domain name" type="text">
+                </div>
+              </div>
+            </div><!-- radio checks -->
+            <div class="form-group">
+              <label class="col-md-4 control-label">Customer or Other?</label>
+              <div class="col-md-4">
+                <div class="radio">
+                  <label><input name="hosting" type="radio" value="yes"> Customer</label>
+                </div>
+                <div class="radio">
+                  <label><input name="hosting" type="radio" value="no"> Other</label>
+                </div>
+              </div>
+            </div><!-- Text area -->
+            <div class="form-group">
+              <label class="col-md-4 control-label">Message</label>
+              <div class="col-md-4 inputGroupContainer">
+                <div class="input-group">
+                  <span class="input-group-addon"><i class="glyphicon glyphicon-pencil"></i></span> 
+                  <textarea class="form-control" name="comment" placeholder="Your Message"></textarea>
+                </div>
+              </div>
+            </div><!-- Success message -->
+            <div class="alert alert-success" id="success_message" role="alert">
+              Success <i class="glyphicon glyphicon-thumbs-up"></i> Thanks for contacting us, we will get back to you shortly.
+            </div><!-- Button -->
+            <div class="form-group">
+              <label class="col-md-4 control-label"></label>
+              <div class="col-md-4">
+                <button class="btn btn-warning" type="submit">Send <span class="glyphicon glyphicon-send"></span></button>
+              </div>
+            </div>
+          </fieldset>
+        </div>
+      </form>
+    </div>
+  </div>
+</body>
+</html>
